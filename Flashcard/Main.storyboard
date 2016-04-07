@@ -1,0 +1,251 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="6211" systemVersion="14A298i" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="66">
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="6204"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="65">
+            <objects>
+                <viewController id="66" sceneMemberID="viewController" customClass="QuizController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="63"/>
+                        <viewControllerLayoutGuide type="bottom" id="64"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="67">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" customColorSpace="calibratedWhite" colorSpace="calibratedRGB" red="1" green="1" blue="1" alpha="1"/>
+                        <subviews>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" id="71" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" editable="NO" text="Question" minimumZoomScale="12" maximumZoomScale="24" keyboardDismissMode="interactive" opaque="NO" preservesSuperviewLayoutMargins="YES">
+                                <rect key="frame" x="47" y="59" width="320" height="55"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="47" y="59" width="320" height="63"/>
+                                </variation>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="37"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <rect key="frame" x="47" y="59" width="674" height="90"/>
+                                </variation>
+                                <constraints>
+                                    <constraint id="804" firstAttribute="width" secondItem="71" secondAttribute="height" multiplier="64:11"/>
+                                </constraints>
+                            </textView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" minimumFontSize="17" id="73" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="47" y="225" width="320" height="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
+                                <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="go" autocorrectionType="no" spellCheckingType="no"/>
+                                <connections>
+                                    <action selector="OnGo:" destination="66" id="226" eventType="editingDidEndOnExit"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="47" y="225" width="320" height="30"/>
+                                </variation>
+                                <accessibility key="accessibilityConfiguration" hint="Answer"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <rect key="frame" x="47" y="225" width="674" height="30"/>
+                                </variation>
+                                <constraints>
+                                    <constraint id="818" firstAttribute="height" constant="30"/>
+                                </constraints>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="85" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="336" y="187" width="46" height="30"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-BoldItalic" family="Avenir Next Condensed" pointSize="17"/>
+                                <state key="normal" title="Go!">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="OnNextTouchUpInside:" destination="66" id="87" eventType="touchUpInside"/>
+                                </connections>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="339" y="195" width="46" height="36"/>
+                                    <mask key="constraints">
+                                        <include reference="684"/>
+                                    </mask>
+                                </variation>
+                                <constraints>
+                                    <constraint id="671" firstAttribute="width" constant="46"/>
+                                    <constraint id="684" firstItem="85" firstAttribute="height" constant="36"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="684"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <rect key="frame" x="690" y="222" width="46" height="36"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" lineBreakMode="tailTruncation" minimumFontSize="10" id="88" translatesAutoresizingMaskIntoConstraints="NO" text="label" textAlignment="center">
+                                <rect key="frame" x="71" y="147" width="272" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
+                                <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
+                                    <rect key="frame" x="191" y="142" width="32" height="23"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <rect key="frame" x="71" y="182" width="626" height="23.5"/>
+                                </variation>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="308" translatesAutoresizingMaskIntoConstraints="NO" enabled="NO" hidden="YES" misplaced="YES">
+                                <rect key="frame" x="137" y="138" width="46" height="30"/>
+                                <state key="normal" title="Finish">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" colorSpace="calibratedWhite" white="1" alpha="1"/>
+                                </state>
+                                <connections>
+                                    <segue id="420" destination="288" kind="show"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="566" firstAttribute="width" constant="46"/>
+                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="231" y="138" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="820" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                                <rect key="frame" x="191" y="40" width="42" height="21"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <constraints>
+                            <constraint id="564" firstItem="67" firstAttribute="trailing" secondItem="308" secondAttribute="trailing" constant="137"/>
+                            <constraint id="565" firstItem="308" firstAttribute="top" secondItem="67" secondAttribute="top" constant="138"/>
+                            <constraint id="700" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="29"/>
+                            <constraint id="701" firstItem="85" firstAttribute="top" secondItem="67" secondAttribute="top" constant="195"/>
+                            <constraint id="742" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="104"/>
+                            <constraint id="743" firstItem="85" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="202"/>
+                            <constraint id="794" firstItem="67" firstAttribute="trailing" secondItem="88" secondAttribute="trailing" constant="191"/>
+                            <constraint id="795" firstItem="88" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="191"/>
+                            <constraint id="801" firstItem="67" firstAttribute="trailing" secondItem="71" secondAttribute="trailing" constant="47"/>
+                            <constraint id="802" firstItem="71" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="47"/>
+                            <constraint id="803" firstItem="71" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="39"/>
+                            <constraint id="805" firstItem="88" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="33"/>
+                            <constraint id="806" firstItem="88" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="71"/>
+                            <constraint id="807" firstItem="67" firstAttribute="trailing" secondItem="88" secondAttribute="trailing" constant="71"/>
+                            <constraint id="808" firstItem="85" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="73"/>
+                            <constraint id="809" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="32"/>
+                            <constraint id="815" firstItem="73" firstAttribute="top" secondItem="67" secondAttribute="top" constant="225"/>
+                            <constraint id="816" firstItem="67" firstAttribute="trailing" secondItem="73" secondAttribute="trailing" constant="47"/>
+                            <constraint id="819" firstItem="73" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="47"/>
+                            <constraint id="824" firstItem="820" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="191"/>
+                            <constraint id="825" firstItem="67" firstAttribute="trailing" secondItem="820" secondAttribute="trailing" constant="181"/>
+                            <constraint id="826" firstItem="820" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="20"/>
+                        </constraints>
+                        <variation key="default">
+                            <mask key="constraints">
+                                <exclude reference="700"/>
+                                <exclude reference="701"/>
+                                <exclude reference="742"/>
+                                <exclude reference="743"/>
+                                <exclude reference="794"/>
+                                <exclude reference="795"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=compact">
+                            <mask key="constraints">
+                                <include reference="700"/>
+                                <include reference="701"/>
+                                <include reference="794"/>
+                                <include reference="795"/>
+                            </mask>
+                        </variation>
+                        <variation key="heightClass=regular-widthClass=regular">
+                            <mask key="constraints">
+                                <include reference="742"/>
+                                <include reference="743"/>
+                            </mask>
+                        </variation>
+                    </view>
+                    <connections>
+                        <outlet property="QuestionText" destination="71" id="name-outlet-71"/>
+                        <outlet property="AnswerInput" destination="73" id="name-outlet-73"/>
+                        <outlet property="ButtonNext" destination="85" id="name-outlet-85"/>
+                        <outlet property="LabelValidation" destination="88" id="name-outlet-88"/>
+                        <outlet property="QuizBackground" destination="67" id="name-outlet-67"/>
+                        <outlet property="FinishButton" destination="308" id="name-outlet-308"/>
+                        <outlet property="AnswerClock" destination="820" id="name-outlet-820"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="68" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1376" y="130"/>
+        </scene>
+        <scene sceneID="287">
+            <objects>
+                <viewController id="288" sceneMemberID="viewController" storyboardIdentifier="QuizSummary" customClass="QuizSummary">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="285"/>
+                        <viewControllerLayoutGuide type="bottom" id="286"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="289" customClass="QuizSummaryController">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="736"/>
+                        <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <subviews>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Quiz Summary" lineBreakMode="tailTruncation" minimumFontSize="10" id="422" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" misplaced="YES">
+                                <rect key="frame" x="0.0" y="110" width="320" height="20"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="475" firstAttribute="width" constant="320"/>
+                                    <constraint id="476" firstAttribute="height" constant="20"/>
+                                </constraints>
+                            </label>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="451" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="0.0" y="191" width="320" height="164"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                                <constraints>
+                                    <constraint id="457" firstAttribute="width" constant="320"/>
+                                    <constraint id="458" firstAttribute="height" constant="21"/>
+                                </constraints>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="463" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                                <rect key="frame" x="126" y="377" width="67" height="30"/>
+                                <state key="normal" title="Retake">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <constraints>
+                                    <constraint id="472" firstAttribute="width" constant="67"/>
+                                </constraints>
+                                <connections>
+                                    <segue id="529" destination="66" kind="show"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <constraints>
+                            <constraint id="455" firstItem="289" firstAttribute="trailing" secondItem="451" secondAttribute="trailing"/>
+                            <constraint id="456" firstItem="451" firstAttribute="top" secondItem="289" secondAttribute="top" constant="191"/>
+                            <constraint id="470" firstItem="463" firstAttribute="leading" secondItem="289" secondAttribute="leading" constant="126"/>
+                            <constraint id="471" firstItem="289" firstAttribute="bottom" secondItem="463" secondAttribute="bottom" constant="73"/>
+                            <constraint id="473" firstItem="289" firstAttribute="trailing" secondItem="422" secondAttribute="trailing"/>
+                            <constraint id="474" firstItem="422" firstAttribute="top" secondItem="289" secondAttribute="top" constant="110"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="QuizResults" destination="451" id="name-outlet-451"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="290" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1952" y="148"/>
+        </scene>
+    </scenes>
+    <simulatedMetricsContainer key="defaultSimulatedMetrics">
+        <simulatedScreenMetrics key="destination" type="retina55"/>
+        <simulatedOrientationMetrics key="orientation"/>
+    </simulatedMetricsContainer>
+</document>
