@@ -1,0 +1,16 @@
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\ibtool\_BundleResourceWithLogicalName.items
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\actool\_PartialAppManifest.items
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\actool\_BundleResourceWithLogicalName.items
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\optimized\
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\Flashcard.csprojResolveAssemblyReference.cache
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\Flashcard.exe
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\Flashcard.pdb
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\Flashcard.Model.dll
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\UIHelpers.dll
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\Flashcard.Model.pdb
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\UIHelpers.pdb
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\Flashcard.exe
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\Flashcard.pdb
+D:\GitHub\Flashcard\Flashcard\obj\iPhone\Debug\Flashcard.exe.mdb
+D:\GitHub\Flashcard\Flashcard\bin\iPhone\Debug\Flashcard.exe.mdb

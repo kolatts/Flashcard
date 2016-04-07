@@ -1,10 +1,12 @@
 namespace Flashcard.Model
 {
-    public enum MathSubject
+    public enum Subject
     {
         Addition,
         Subtraction,
         Multiplication,
-        Division
+        Division,
+        Time,
+        Money
     }
 }

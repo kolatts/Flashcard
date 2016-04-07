@@ -17,19 +17,19 @@ namespace Flashcard.Model
             if (julian)
                 template = new QuizTemplate()
                 {
-                    Sections = new List<QuizTemplateSection>()
+                    Sections = new List<MathTemplateSection>()
                     {
-                        new QuizTemplateSection() { Minimum = 0, Maximum = 9, NumberOfFactors = 2, Subject = MathSubject.Addition, NumberOfQuestions = 2 },
-                        //new QuizTemplateSection() { Minimum = 0, Maximum = 9, NumberOfFactors = 2, Subject = MathSubject.Subtraction, NumberOfQuestions = 2 }
+                        new MathTemplateSection() { Minimum = 0, Maximum = 9, NumberOfFactors = 2, Subject = Subject.Addition, NumberOfQuestions = 2 },
+                        //new MathTemplateSection() { Minimum = 0, Maximum = 9, NumberOfFactors = 2, Subject = MathSubject.Subtraction, NumberOfQuestions = 2 }
                     }
                 };
             else
                 template = new QuizTemplate()
                 {
-                    Sections = new List<QuizTemplateSection>()
+                    Sections = new List<MathTemplateSection>()
                     {
-                        new QuizTemplateSection() { Minimum = 0, Maximum = 8, NumberOfFactors = 2, Subject = MathSubject.Addition, NumberOfQuestions = 2 },
-                        new QuizTemplateSection() { Minimum = 0, Maximum = 8, NumberOfFactors = 2, Subject = MathSubject.Subtraction, NumberOfQuestions = 2 }
+                        new MathTemplateSection() { Minimum = 0, Maximum = 8, NumberOfFactors = 2, Subject = Subject.Addition, NumberOfQuestions = 2 },
+                        new MathTemplateSection() { Minimum = 0, Maximum = 8, NumberOfFactors = 2, Subject = Subject.Subtraction, NumberOfQuestions = 2 }
                     }
                 };
             Questions = new List<IAnswerable>();

@@ -32,7 +32,12 @@
   <ItemGroup>
     <Compile Include="AdditionQuestion.cs" />
     <Compile Include="AnswerType.cs" />
+    <Compile Include="ClockQuestion.cs" />
+    <Compile Include="ClockTemplateSection.cs" />
+    <Compile Include="CoinQuestion.cs" />
+    <Compile Include="CoinTemplateSection.cs" />
     <Compile Include="DivisionQuestion.cs" />
+    <Compile Include="ITemplateSection.cs" />
     <Compile Include="MathQuestion.cs" />
     <Compile Include="MathSubject.cs" />
     <Compile Include="MultiplicationQuestion.cs" />
@@ -40,10 +45,11 @@
     <Compile Include="IAnswerable.cs" />
     <Compile Include="Question.cs" />
     <Compile Include="QuizTemplate.cs" />
-    <Compile Include="QuizTemplateSection.cs" />
+    <Compile Include="MathTemplateSection.cs" />
     <Compile Include="Quiz.cs" />
     <Compile Include="RandomSingleton.cs" />
     <Compile Include="SubtractionQuestion.cs" />
+    <Compile Include="TemplateSection.cs" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\Portable\$(TargetFrameworkVersion)\Microsoft.Portable.CSharp.targets" />
 </Project>

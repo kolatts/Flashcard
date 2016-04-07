@@ -1,0 +1,14 @@
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.dll
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.pdb
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\optimized\
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.csprojResolveAssemblyReference.cache
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.dll
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.pdb
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\obj\Debug\UIHelpers.dll.mdb
+D:\GitHub\Flashcard\UIHelpers\bin\Debug\UIHelpers.dll.mdb

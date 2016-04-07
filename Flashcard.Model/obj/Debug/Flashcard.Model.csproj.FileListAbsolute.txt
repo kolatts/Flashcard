@@ -1,0 +1,7 @@
+D:\GitHub\Flashcard\Flashcard.Model\obj\Debug\Flashcard.Model.csprojResolveAssemblyReference.cache
+D:\GitHub\Flashcard\Flashcard.Model\bin\Debug\Flashcard.Model.dll
+D:\GitHub\Flashcard\Flashcard.Model\bin\Debug\Flashcard.Model.pdb
+D:\GitHub\Flashcard\Flashcard.Model\obj\Debug\Flashcard.Model.dll
+D:\GitHub\Flashcard\Flashcard.Model\obj\Debug\Flashcard.Model.pdb
+D:\GitHub\Flashcard\Flashcard.Model\obj\Debug\Flashcard.Model.dll.mdb
+D:\GitHub\Flashcard\Flashcard.Model\bin\Debug\Flashcard.Model.dll.mdb
