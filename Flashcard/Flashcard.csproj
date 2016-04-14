@@ -115,6 +115,10 @@
     <Compile Include="QuizSummary.designer.cs">
       <DependentUpon>QuizSummary.cs</DependentUpon>
     </Compile>
+    <Compile Include="FreeformAnswerQuestionController.cs" />
+    <Compile Include="FreeformAnswerQuestionController.designer.cs">
+      <DependentUpon>FreeformAnswerQuestionController.cs</DependentUpon>
+    </Compile>
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Xamarin\iOS\Xamarin.iOS.CSharp.targets" />
   <ItemGroup>

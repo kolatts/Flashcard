@@ -52,7 +52,7 @@ namespace Flashcard
             if (AnswerClock.Text != CurrentQuestion.TimeInSeconds)
             {
                 AnswerClock.Text = $"{Quiz.TimeRemaining.Minutes}:{Quiz.TimeRemaining.Seconds:00}";
-                AnswerInput.BecomeFirstResponder();
+               // AnswerInput.BecomeFirstResponder();
             }
             await Task.Delay(1000);
             UpdateClockLabel();
@@ -137,6 +137,11 @@ namespace Flashcard
         partial void OnGo(UITextField sender)
         {
             OnNextTouchUpInside(null);
+        }
+
+        partial void OnKeypadButtonTouchUpInside(UIButton sender)
+        {
+            AnswerInput.Text = AnswerInput.Text + sender.CurrentTitle;
         }
     }
 }

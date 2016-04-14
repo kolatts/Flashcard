@@ -5,6 +5,7 @@ using UIKit;
 using System.Linq;
 using CoreAnimation;
 using CoreGraphics;
+using UIHelpers;
 
 namespace Flashcard
 {
@@ -19,6 +20,8 @@ namespace Flashcard
         public override void ViewDidLoad()
         {
             base.ViewDidLoad();
+            this.CreateBackgroundGradient(UIColor.FromRGB(69, 63, 252), UIColor.FromRGB(0, 3, 189),0);
+
             var quiz = LocalData.Instance.Quiz;
             var correct = quiz.Questions.Count(x => x.AnsweredCorrectly);
             var incorrect = quiz.Questions.Count(x => x.AnsweredCorrectly == false);

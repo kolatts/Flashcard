@@ -42,9 +42,17 @@ namespace Flashcard
 		[GeneratedCode ("iOS Designer", "1.0")]
 		UIView QuizBackground { get; set; }
 
+		[Outlet]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		UIButton SpecialCharacterButton { get; set; }
+
 		[Action ("OnGo:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
 		partial void OnGo (UITextField sender);
+
+		[Action ("OnKeypadButtonTouchUpInside:")]
+		[GeneratedCode ("iOS Designer", "1.0")]
+		partial void OnKeypadButtonTouchUpInside (UIButton sender);
 
 		[Action ("OnNextTouchUpInside:")]
 		[GeneratedCode ("iOS Designer", "1.0")]
@@ -79,6 +87,10 @@ namespace Flashcard
 			if (QuizBackground != null) {
 				QuizBackground.Dispose ();
 				QuizBackground = null;
+			}
+			if (SpecialCharacterButton != null) {
+				SpecialCharacterButton.Dispose ();
+				SpecialCharacterButton = null;
 			}
 		}
 	}

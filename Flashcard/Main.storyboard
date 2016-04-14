@@ -21,7 +21,7 @@
                                 <rect key="frame" x="47" y="59" width="320" height="55"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="21" y="67" width="279" height="62.5"/>
+                                    <rect key="frame" x="21" y="67" width="334" height="62.5"/>
                                 </variation>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="37"/>
@@ -29,7 +29,7 @@
                                     <rect key="frame" x="47" y="59" width="674" height="90"/>
                                 </variation>
                             </textView>
-                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" minimumFontSize="17" id="73" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" minimumFontSize="17" id="73" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" userInteractionEnabled="NO">
                                 <rect key="frame" x="47" y="225" width="320" height="30"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="24"/>
                                 <textInputTraits key="textInputTraits" keyboardType="decimalPad" returnKeyType="go" autocorrectionType="no" spellCheckingType="no"/>
@@ -37,7 +37,7 @@
                                     <action selector="OnGo:" destination="66" id="226" eventType="editingDidEndOnExit"/>
                                 </connections>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="47" y="225" width="226" height="30"/>
+                                    <rect key="frame" x="47" y="225" width="281" height="30"/>
                                 </variation>
                                 <accessibility key="accessibilityConfiguration" hint="Answer"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -58,7 +58,7 @@
                                     <action selector="OnNextTouchUpInside:" destination="66" id="87" eventType="touchUpInside"/>
                                 </connections>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="47" y="184" width="226" height="36"/>
+                                    <rect key="frame" x="230.5" y="601" width="70.5" height="46"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <rect key="frame" x="690" y="222" width="46" height="36"/>
@@ -71,12 +71,12 @@
                                 <color key="textColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="31.5" y="152.5" width="257" height="23.5"/>
+                                    <rect key="frame" x="59" y="152.5" width="257" height="23.5"/>
                                     <mask key="constraints">
                                         <include reference="910"/>
                                     </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                <variation key="heightClass=regular-widthClass=regular">
                                     <rect key="frame" x="71" y="182" width="626" height="23.5"/>
                                 </variation>
                                 <constraints>
@@ -98,7 +98,7 @@
                                     <segue id="420" destination="288" kind="show"/>
                                 </connections>
                                 <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
-                                    <rect key="frame" x="74" y="296" width="172" height="30"/>
+                                    <rect key="frame" x="70" y="642" width="172" height="30"/>
                                 </variation>
                             </button>
                             <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="820" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" fixedFrame="YES">
@@ -108,12 +108,240 @@
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="42" y="40" width="237" height="23.5"/>
+                                    <rect key="frame" x="42" y="40" width="292" height="23.5"/>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
-                                    <rect key="frame" x="177" y="40" width="414" height="21"/>
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
+                                    <rect key="frame" x="177" y="40" width="34.5" height="23.5"/>
                                 </variation>
                             </label>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="939" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="47" y="774" width="46" height="30"/>
+                                <state key="normal" title="Button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="47" y="774" width="46" height="30"/>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="940" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="1">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="74" y="438" width="70.5" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="941" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="942" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="2">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="152.5" y="438" width="70" height="46"/>
+                                    <mask key="constraints">
+                                        <include reference="1124"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="944" id="943" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="975" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="1124" firstAttribute="width" secondItem="942" secondAttribute="height" multiplier="26:17"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1124"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="945" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="3">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="230.5" y="438" width="70.5" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="947" id="946" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="976" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="948" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="4">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="74" y="492" width="70.5" height="46"/>
+                                    <mask key="constraints">
+                                        <include reference="1112"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="950" id="949" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="974" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="1112" firstAttribute="width" secondItem="948" secondAttribute="height" multiplier="26:17"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1112"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="951" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="5">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="152.5" y="492" width="70" height="46"/>
+                                    <mask key="constraints">
+                                        <include reference="1130"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="953" id="952" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="981" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="1130" firstAttribute="width" secondItem="951" secondAttribute="height" multiplier="26:17"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1130"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="954" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="6">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="230.5" y="492" width="70.5" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="956" id="955" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="977" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="957" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="7">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="74" y="546" width="70.5" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="959" id="958" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="973" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="960" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="8">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="152.5" y="546" width="70" height="46"/>
+                                    <mask key="constraints">
+                                        <include reference="1113"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="962" id="961" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="980" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="1113" firstAttribute="width" secondItem="960" secondAttribute="height" multiplier="26:17"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1113"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="963" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="9">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="230.5" y="546" width="70.5" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="965" id="964" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="978" eventType="touchUpInside"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="966" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title="0">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="74" y="600" width="70.5" height="46"/>
+                                    <mask key="constraints">
+                                        <include reference="1110"/>
+                                    </mask>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="968" id="967" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="972" eventType="touchUpInside"/>
+                                </connections>
+                                <constraints>
+                                    <constraint id="1110" firstAttribute="width" secondItem="966" secondAttribute="height" multiplier="26:17"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="1110"/>
+                                    </mask>
+                                </variation>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" id="969" translatesAutoresizingMaskIntoConstraints="NO">
+                                <rect key="frame" x="103" y="296" width="46" height="30"/>
+                                <color key="backgroundColor" colorSpace="calibratedWhite" white="0.666666666666667" alpha="1"/>
+                                <state key="normal" title=":">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleColor" cocoaTouchSystemColor="darkTextColor"/>
+                                </state>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="152.5" y="600" width="70" height="46"/>
+                                </variation>
+                                <connections>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="971" id="970" eventType="touchUpInside"/>
+                                    <action selector="OnKeypadButtonTouchUpInside:" destination="66" id="979" eventType="touchUpOutside"/>
+                                </connections>
+                            </button>
                         </subviews>
                         <constraints>
                             <constraint id="815" firstItem="73" firstAttribute="top" secondItem="67" secondAttribute="top" constant="225"/>
@@ -130,9 +358,52 @@
                             <constraint id="908" firstItem="88" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
                             <constraint id="909" firstItem="88" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="23"/>
                             <constraint id="912" firstItem="73" firstAttribute="top" secondItem="88" secondAttribute="bottom" constant="49"/>
-                            <constraint id="918" firstItem="85" firstAttribute="top" secondItem="88" secondAttribute="bottom" constant="8"/>
-                            <constraint id="919" firstItem="85" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
-                            <constraint id="924" firstItem="85" firstAttribute="width" secondItem="73" secondAttribute="width"/>
+                            <constraint id="1076" firstItem="960" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="1083" firstItem="960" firstAttribute="leading" secondItem="957" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1087" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="74"/>
+                            <constraint id="1091" firstItem="940" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="74"/>
+                            <constraint id="1092" firstItem="948" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="74"/>
+                            <constraint id="1093" firstItem="957" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="74"/>
+                            <constraint id="1094" firstItem="966" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="74"/>
+                            <constraint id="1096" firstItem="969" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="1097" firstItem="969" firstAttribute="leading" secondItem="966" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1098" firstItem="85" firstAttribute="leading" secondItem="969" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1099" firstItem="67" firstAttribute="bottom" secondItem="966" secondAttribute="bottom" constant="21"/>
+                            <constraint id="1100" firstItem="67" firstAttribute="bottom" secondItem="969" secondAttribute="bottom" constant="21"/>
+                            <constraint id="1101" firstItem="67" firstAttribute="bottom" secondItem="85" secondAttribute="bottom" constant="20"/>
+                            <constraint id="1103" firstItem="966" firstAttribute="top" secondItem="957" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1104" firstItem="957" firstAttribute="top" secondItem="948" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1105" firstItem="948" firstAttribute="top" secondItem="940" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1121" firstItem="942" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="1122" firstItem="942" firstAttribute="leading" secondItem="940" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1125" firstItem="951" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="1126" firstItem="951" firstAttribute="top" secondItem="942" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1127" firstItem="951" firstAttribute="leading" secondItem="948" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1129" firstItem="960" firstAttribute="top" secondItem="951" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1131" firstItem="969" firstAttribute="top" secondItem="960" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1132" firstItem="942" firstAttribute="width" secondItem="940" secondAttribute="width"/>
+                            <constraint id="1134" firstItem="951" firstAttribute="width" secondItem="948" secondAttribute="width"/>
+                            <constraint id="1137" firstItem="960" firstAttribute="width" secondItem="957" secondAttribute="width"/>
+                            <constraint id="1138" firstItem="969" firstAttribute="width" secondItem="966" secondAttribute="width"/>
+                            <constraint id="1139" firstItem="969" firstAttribute="width" secondItem="85" secondAttribute="width"/>
+                            <constraint id="1141" firstItem="957" firstAttribute="height" secondItem="960" secondAttribute="height"/>
+                            <constraint id="1142" firstItem="948" firstAttribute="height" secondItem="951" secondAttribute="height"/>
+                            <constraint id="1145" firstItem="940" firstAttribute="height" secondItem="942" secondAttribute="height"/>
+                            <constraint id="1146" firstItem="966" firstAttribute="height" secondItem="969" secondAttribute="height"/>
+                            <constraint id="1147" firstItem="85" firstAttribute="height" secondItem="969" secondAttribute="height"/>
+                            <constraint id="1155" firstItem="945" firstAttribute="centerY" secondItem="942" secondAttribute="centerY"/>
+                            <constraint id="1156" firstItem="951" firstAttribute="top" secondItem="945" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1157" firstItem="945" firstAttribute="leading" secondItem="951" secondAttribute="trailing" constant="8"/>
+                            <constraint id="1163" firstItem="945" firstAttribute="height" secondItem="942" secondAttribute="height"/>
+                            <constraint id="1164" firstItem="945" firstAttribute="width" secondItem="942" secondAttribute="width"/>
+                            <constraint id="1175" firstItem="954" firstAttribute="top" secondItem="945" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1176" firstItem="954" firstAttribute="height" secondItem="951" secondAttribute="height"/>
+                            <constraint id="1177" firstItem="954" firstAttribute="width" secondItem="951" secondAttribute="width"/>
+                            <constraint id="1179" firstItem="67" firstAttribute="trailing" secondItem="954" secondAttribute="trailing" constant="74"/>
+                            <constraint id="1181" firstItem="963" firstAttribute="height" secondItem="960" secondAttribute="height"/>
+                            <constraint id="1182" firstItem="963" firstAttribute="width" secondItem="960" secondAttribute="width"/>
+                            <constraint id="1183" firstItem="963" firstAttribute="top" secondItem="954" secondAttribute="bottom" constant="8"/>
+                            <constraint id="1184" firstItem="67" firstAttribute="trailing" secondItem="963" secondAttribute="trailing" constant="74"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
@@ -147,9 +418,66 @@
                                 <exclude reference="908"/>
                                 <exclude reference="909"/>
                                 <exclude reference="912"/>
-                                <exclude reference="918"/>
-                                <exclude reference="919"/>
-                                <exclude reference="924"/>
+                                <exclude reference="1076"/>
+                                <exclude reference="1083"/>
+                                <exclude reference="1087"/>
+                                <exclude reference="1091"/>
+                                <exclude reference="1092"/>
+                                <exclude reference="1093"/>
+                                <exclude reference="1094"/>
+                                <exclude reference="1096"/>
+                                <exclude reference="1097"/>
+                                <exclude reference="1098"/>
+                                <exclude reference="1099"/>
+                                <exclude reference="1100"/>
+                                <exclude reference="1101"/>
+                                <exclude reference="1103"/>
+                                <exclude reference="1104"/>
+                                <exclude reference="1105"/>
+                                <exclude reference="1121"/>
+                                <exclude reference="1122"/>
+                                <exclude reference="1125"/>
+                                <exclude reference="1126"/>
+                                <exclude reference="1127"/>
+                                <exclude reference="1129"/>
+                                <exclude reference="1131"/>
+                                <exclude reference="1132"/>
+                                <exclude reference="1134"/>
+                                <exclude reference="1137"/>
+                                <exclude reference="1138"/>
+                                <exclude reference="1139"/>
+                                <exclude reference="1141"/>
+                                <exclude reference="1142"/>
+                                <exclude reference="1145"/>
+                                <exclude reference="1146"/>
+                                <exclude reference="1147"/>
+                                <exclude reference="1155"/>
+                                <exclude reference="1156"/>
+                                <exclude reference="1157"/>
+                                <exclude reference="1163"/>
+                                <exclude reference="1164"/>
+                                <exclude reference="1175"/>
+                                <exclude reference="1176"/>
+                                <exclude reference="1177"/>
+                                <exclude reference="1179"/>
+                                <exclude reference="1181"/>
+                                <exclude reference="1182"/>
+                                <exclude reference="1183"/>
+                                <exclude reference="1184"/>
+                            </mask>
+                            <mask key="subviews">
+                                <exclude reference="939"/>
+                                <exclude reference="940"/>
+                                <exclude reference="942"/>
+                                <exclude reference="945"/>
+                                <exclude reference="948"/>
+                                <exclude reference="951"/>
+                                <exclude reference="954"/>
+                                <exclude reference="957"/>
+                                <exclude reference="960"/>
+                                <exclude reference="963"/>
+                                <exclude reference="966"/>
+                                <exclude reference="969"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
@@ -164,9 +492,66 @@
                                 <include reference="908"/>
                                 <include reference="909"/>
                                 <include reference="912"/>
-                                <include reference="918"/>
-                                <include reference="919"/>
-                                <include reference="924"/>
+                                <include reference="1076"/>
+                                <include reference="1083"/>
+                                <include reference="1087"/>
+                                <include reference="1091"/>
+                                <include reference="1092"/>
+                                <include reference="1093"/>
+                                <include reference="1094"/>
+                                <include reference="1096"/>
+                                <include reference="1097"/>
+                                <include reference="1098"/>
+                                <include reference="1099"/>
+                                <include reference="1100"/>
+                                <include reference="1101"/>
+                                <include reference="1103"/>
+                                <include reference="1104"/>
+                                <include reference="1105"/>
+                                <include reference="1121"/>
+                                <include reference="1122"/>
+                                <include reference="1125"/>
+                                <include reference="1126"/>
+                                <include reference="1127"/>
+                                <include reference="1129"/>
+                                <include reference="1131"/>
+                                <include reference="1132"/>
+                                <include reference="1134"/>
+                                <include reference="1137"/>
+                                <include reference="1138"/>
+                                <include reference="1139"/>
+                                <include reference="1141"/>
+                                <include reference="1142"/>
+                                <include reference="1145"/>
+                                <include reference="1146"/>
+                                <include reference="1147"/>
+                                <include reference="1155"/>
+                                <include reference="1156"/>
+                                <include reference="1157"/>
+                                <include reference="1163"/>
+                                <include reference="1164"/>
+                                <include reference="1175"/>
+                                <include reference="1176"/>
+                                <include reference="1177"/>
+                                <include reference="1179"/>
+                                <include reference="1181"/>
+                                <include reference="1182"/>
+                                <include reference="1183"/>
+                                <include reference="1184"/>
+                            </mask>
+                            <mask key="subviews">
+                                <include reference="939"/>
+                                <include reference="940"/>
+                                <include reference="942"/>
+                                <include reference="945"/>
+                                <include reference="948"/>
+                                <include reference="951"/>
+                                <include reference="954"/>
+                                <include reference="957"/>
+                                <include reference="960"/>
+                                <include reference="963"/>
+                                <include reference="966"/>
+                                <include reference="969"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
@@ -183,6 +568,7 @@
                         <outlet property="QuizBackground" destination="67" id="name-outlet-67"/>
                         <outlet property="FinishButton" destination="308" id="name-outlet-308"/>
                         <outlet property="AnswerClock" destination="820" id="name-outlet-820"/>
+                        <outlet property="SpecialCharacterButton" destination="969" id="name-outlet-969"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="68" userLabel="First Responder" sceneMemberID="firstResponder"/>
@@ -252,7 +638,7 @@
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedScreenMetrics key="destination"/>
+        <simulatedScreenMetrics key="destination" type="retina47"/>
         <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
 </document>
