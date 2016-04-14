@@ -21,16 +21,13 @@
                                 <rect key="frame" x="47" y="59" width="320" height="55"/>
                                 <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="47" y="59" width="320" height="63"/>
+                                    <rect key="frame" x="21" y="67" width="279" height="62.5"/>
                                 </variation>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <fontDescription key="fontDescription" name="AvenirNext-Bold" family="Avenir Next" pointSize="37"/>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <rect key="frame" x="47" y="59" width="674" height="90"/>
                                 </variation>
-                                <constraints>
-                                    <constraint id="804" firstAttribute="width" secondItem="71" secondAttribute="height" multiplier="64:11"/>
-                                </constraints>
                             </textView>
                             <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" text="Text" minimumFontSize="17" id="73" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
                                 <rect key="frame" x="47" y="225" width="320" height="30"/>
@@ -40,7 +37,7 @@
                                     <action selector="OnGo:" destination="66" id="226" eventType="editingDidEndOnExit"/>
                                 </connections>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="47" y="225" width="320" height="30"/>
+                                    <rect key="frame" x="47" y="225" width="226" height="30"/>
                                 </variation>
                                 <accessibility key="accessibilityConfiguration" hint="Answer"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
@@ -61,19 +58,7 @@
                                     <action selector="OnNextTouchUpInside:" destination="66" id="87" eventType="touchUpInside"/>
                                 </connections>
                                 <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="339" y="195" width="46" height="36"/>
-                                    <mask key="constraints">
-                                        <include reference="684"/>
-                                    </mask>
-                                </variation>
-                                <constraints>
-                                    <constraint id="671" firstAttribute="width" constant="46"/>
-                                    <constraint id="684" firstItem="85" firstAttribute="height" constant="36"/>
-                                </constraints>
-                                <variation key="default">
-                                    <mask key="constraints">
-                                        <exclude reference="684"/>
-                                    </mask>
+                                    <rect key="frame" x="47" y="184" width="226" height="36"/>
                                 </variation>
                                 <variation key="heightClass=regular-widthClass=regular">
                                     <rect key="frame" x="690" y="222" width="46" height="36"/>
@@ -85,11 +70,22 @@
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                 <color key="textColor" colorSpace="calibratedRGB" red="1" green="0" blue="0" alpha="1"/>
                                 <nil key="highlightedColor"/>
-                                <variation key="heightClass=regular-widthClass=compact" misplaced="YES">
-                                    <rect key="frame" x="191" y="142" width="32" height="23"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="31.5" y="152.5" width="257" height="23.5"/>
+                                    <mask key="constraints">
+                                        <include reference="910"/>
+                                    </mask>
                                 </variation>
-                                <variation key="heightClass=regular-widthClass=regular">
+                                <variation key="heightClass=regular-widthClass=regular" misplaced="YES">
                                     <rect key="frame" x="71" y="182" width="626" height="23.5"/>
+                                </variation>
+                                <constraints>
+                                    <constraint id="910" firstItem="88" firstAttribute="width" constant="257"/>
+                                </constraints>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="910"/>
+                                    </mask>
                                 </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="308" translatesAutoresizingMaskIntoConstraints="NO" enabled="NO" hidden="YES" misplaced="YES">
@@ -101,67 +97,81 @@
                                 <connections>
                                     <segue id="420" destination="288" kind="show"/>
                                 </connections>
-                                <constraints>
-                                    <constraint id="566" firstAttribute="width" constant="46"/>
-                                </constraints>
-                                <variation key="heightClass=regular-widthClass=compact">
-                                    <rect key="frame" x="231" y="138" width="46" height="30"/>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="74" y="296" width="172" height="30"/>
                                 </variation>
                             </button>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="820" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center">
-                                <rect key="frame" x="191" y="40" width="42" height="21"/>
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="820" translatesAutoresizingMaskIntoConstraints="NO" textAlignment="center" fixedFrame="YES">
+                                <rect key="frame" x="0.0" y="40" width="414" height="21"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" name="AvenirNextCondensed-DemiBold" family="Avenir Next Condensed" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <rect key="frame" x="42" y="40" width="237" height="23.5"/>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=regular">
+                                    <rect key="frame" x="177" y="40" width="414" height="21"/>
+                                </variation>
                             </label>
                         </subviews>
                         <constraints>
-                            <constraint id="564" firstItem="67" firstAttribute="trailing" secondItem="308" secondAttribute="trailing" constant="137"/>
-                            <constraint id="565" firstItem="308" firstAttribute="top" secondItem="67" secondAttribute="top" constant="138"/>
-                            <constraint id="700" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="29"/>
-                            <constraint id="701" firstItem="85" firstAttribute="top" secondItem="67" secondAttribute="top" constant="195"/>
-                            <constraint id="742" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="104"/>
-                            <constraint id="743" firstItem="85" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="202"/>
-                            <constraint id="794" firstItem="67" firstAttribute="trailing" secondItem="88" secondAttribute="trailing" constant="191"/>
-                            <constraint id="795" firstItem="88" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="191"/>
-                            <constraint id="801" firstItem="67" firstAttribute="trailing" secondItem="71" secondAttribute="trailing" constant="47"/>
-                            <constraint id="802" firstItem="71" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="47"/>
-                            <constraint id="803" firstItem="71" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="39"/>
-                            <constraint id="805" firstItem="88" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="33"/>
-                            <constraint id="806" firstItem="88" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="71"/>
-                            <constraint id="807" firstItem="67" firstAttribute="trailing" secondItem="88" secondAttribute="trailing" constant="71"/>
-                            <constraint id="808" firstItem="85" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="73"/>
-                            <constraint id="809" firstItem="67" firstAttribute="trailing" secondItem="85" secondAttribute="trailing" constant="32"/>
                             <constraint id="815" firstItem="73" firstAttribute="top" secondItem="67" secondAttribute="top" constant="225"/>
                             <constraint id="816" firstItem="67" firstAttribute="trailing" secondItem="73" secondAttribute="trailing" constant="47"/>
                             <constraint id="819" firstItem="73" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="47"/>
-                            <constraint id="824" firstItem="820" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="191"/>
-                            <constraint id="825" firstItem="67" firstAttribute="trailing" secondItem="820" secondAttribute="trailing" constant="181"/>
-                            <constraint id="826" firstItem="820" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="20"/>
+                            <constraint id="877" firstItem="820" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="20"/>
+                            <constraint id="880" firstItem="67" firstAttribute="trailing" secondItem="820" secondAttribute="trailing" constant="41"/>
+                            <constraint id="881" firstItem="820" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="42"/>
+                            <constraint id="882" firstItem="820" firstAttribute="top" secondItem="63" secondAttribute="bottom" constant="20"/>
+                            <constraint id="885" firstItem="67" firstAttribute="trailing" secondItem="71" secondAttribute="trailing" constant="20"/>
+                            <constraint id="886" firstItem="71" firstAttribute="leading" secondItem="67" secondAttribute="leading" constant="21"/>
+                            <constraint id="887" firstItem="71" firstAttribute="top" secondItem="820" secondAttribute="top" constant="27"/>
+                            <constraint id="905" firstItem="88" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="23"/>
+                            <constraint id="908" firstItem="88" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="909" firstItem="88" firstAttribute="top" secondItem="71" secondAttribute="bottom" constant="23"/>
+                            <constraint id="912" firstItem="73" firstAttribute="top" secondItem="88" secondAttribute="bottom" constant="49"/>
+                            <constraint id="918" firstItem="85" firstAttribute="top" secondItem="88" secondAttribute="bottom" constant="8"/>
+                            <constraint id="919" firstItem="85" firstAttribute="centerX" secondItem="67" secondAttribute="centerX"/>
+                            <constraint id="924" firstItem="85" firstAttribute="width" secondItem="73" secondAttribute="width"/>
                         </constraints>
                         <variation key="default">
                             <mask key="constraints">
-                                <exclude reference="700"/>
-                                <exclude reference="701"/>
-                                <exclude reference="742"/>
-                                <exclude reference="743"/>
-                                <exclude reference="794"/>
-                                <exclude reference="795"/>
+                                <exclude reference="877"/>
+                                <exclude reference="880"/>
+                                <exclude reference="881"/>
+                                <exclude reference="882"/>
+                                <exclude reference="885"/>
+                                <exclude reference="886"/>
+                                <exclude reference="887"/>
+                                <exclude reference="905"/>
+                                <exclude reference="908"/>
+                                <exclude reference="909"/>
+                                <exclude reference="912"/>
+                                <exclude reference="918"/>
+                                <exclude reference="919"/>
+                                <exclude reference="924"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="constraints">
-                                <include reference="700"/>
-                                <include reference="701"/>
-                                <include reference="794"/>
-                                <include reference="795"/>
+                                <include reference="880"/>
+                                <include reference="881"/>
+                                <include reference="882"/>
+                                <include reference="885"/>
+                                <include reference="886"/>
+                                <include reference="887"/>
+                                <include reference="905"/>
+                                <include reference="908"/>
+                                <include reference="909"/>
+                                <include reference="912"/>
+                                <include reference="918"/>
+                                <include reference="919"/>
+                                <include reference="924"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=regular">
                             <mask key="constraints">
-                                <include reference="742"/>
-                                <include reference="743"/>
+                                <include reference="877"/>
                             </mask>
                         </variation>
                     </view>
@@ -202,16 +212,15 @@
                                     <constraint id="476" firstAttribute="height" constant="20"/>
                                 </constraints>
                             </label>
-                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="451" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
+                            <label opaque="NO" clipsSubviews="YES" userInteractionEnabled="NO" contentMode="left" text="Label" lineBreakMode="tailTruncation" minimumFontSize="10" id="451" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES" textAlignment="center" numberOfLines="5">
                                 <rect key="frame" x="0.0" y="191" width="320" height="164"/>
                                 <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="calibratedWhite"/>
                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                 <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
                                 <nil key="highlightedColor"/>
-                                <constraints>
-                                    <constraint id="457" firstAttribute="width" constant="320"/>
-                                    <constraint id="458" firstAttribute="height" constant="21"/>
-                                </constraints>
+                                <variation key="heightClass=regular-widthClass=compact" fixedFrame="YES">
+                                    <rect key="frame" x="20" y="158" width="279" height="164"/>
+                                </variation>
                             </label>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" id="463" translatesAutoresizingMaskIntoConstraints="NO" misplaced="YES">
                                 <rect key="frame" x="126" y="377" width="67" height="30"/>
@@ -227,8 +236,6 @@
                             </button>
                         </subviews>
                         <constraints>
-                            <constraint id="455" firstItem="289" firstAttribute="trailing" secondItem="451" secondAttribute="trailing"/>
-                            <constraint id="456" firstItem="451" firstAttribute="top" secondItem="289" secondAttribute="top" constant="191"/>
                             <constraint id="470" firstItem="463" firstAttribute="leading" secondItem="289" secondAttribute="leading" constant="126"/>
                             <constraint id="471" firstItem="289" firstAttribute="bottom" secondItem="463" secondAttribute="bottom" constant="73"/>
                             <constraint id="473" firstItem="289" firstAttribute="trailing" secondItem="422" secondAttribute="trailing"/>
@@ -245,7 +252,7 @@
         </scene>
     </scenes>
     <simulatedMetricsContainer key="defaultSimulatedMetrics">
-        <simulatedScreenMetrics key="destination" type="retina55"/>
+        <simulatedScreenMetrics key="destination"/>
         <simulatedOrientationMetrics key="orientation"/>
     </simulatedMetricsContainer>
 </document>
